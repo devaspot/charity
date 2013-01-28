@@ -1,5 +1,6 @@
 #include <assert.h>
 #include <ctype.h>
+#include <cstring> 
 #include "vmc.h"
 /*
 comment     ";".*

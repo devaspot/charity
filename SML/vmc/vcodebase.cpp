@@ -1,5 +1,5 @@
 #include "vmc.h"
-
+#include <cstring> 
 #include <cassert>
 #include <iomanip>
 #include <strstream>

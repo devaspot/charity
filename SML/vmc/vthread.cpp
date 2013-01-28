@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cassert>
 #include <cstdlib>
+#include <cstring> 
 #include <cstdio>
 #include <ctime>
 #include <cmath>

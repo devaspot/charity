@@ -1,5 +1,6 @@
 //implement class VHeap using two-space copying garbage collector
 #include <cassert>
+#include <cstring> 
 #include "vmc.h"
 
 //0..15 are pre-created 

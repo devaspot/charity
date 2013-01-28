@@ -1,4 +1,4 @@
-vmc : CCFLAGS=-c
+vmc : CCFLAGS=-c -Wno-deprecated -fpermissive
 debug : CCFLAGS=-c -D_DEBUG
 
 vmc debug: parser.o vheap.o token.o vthread.o vcodebase.o vinstrspec.o extfun.o unixapi.o cmdparse.o
